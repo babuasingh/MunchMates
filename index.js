@@ -10,7 +10,7 @@ const PORT=process.env.PORT || 4000;
 const cors = require('cors');
 app.use(cors()) 
 app.use((req,res,next)=>{
-    res.setHeader("Access-Control-Allow-Origin",`http://localhost:3000`);
+    res.setHeader("Access-Control-Allow-Origin",`https://6596783ca475885542888e40--curious-unicorn-758fe1.netlify.app`);
     res.header(
         "Access-Control-Allow_headers",
         "Origin, X-Requested-With, Content-Type, Accept"
