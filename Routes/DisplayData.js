@@ -9,7 +9,8 @@ const router = express.Router()
 
 router.post('/foodData',async (req,res)=>{
     try {
-        console.log(global.food_items)
+        // console.log(global.food_items)
+        console.log("Data Fetched");
         res.send([global.food_items,global.foodCategory])
     } catch (error) {
         console.error(error.message);
